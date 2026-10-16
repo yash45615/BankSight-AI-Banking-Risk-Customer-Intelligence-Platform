@@ -1,0 +1,48 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing and linting
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.ruff_cache/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Data: do not commit raw or processed datasets by default
+data/raw/*
+data/processed/*
+data/reports/*
+
+# Preserve folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/reports/.gitkeep
+
+# Generated models and artifacts
+models/*
+artifacts/*
+!models/.gitkeep
+!artifacts/.gitkeep
+
+# Editors and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
